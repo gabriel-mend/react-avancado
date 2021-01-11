@@ -18,7 +18,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "name": {
       "type": "string",

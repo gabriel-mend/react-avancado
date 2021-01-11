@@ -2,15 +2,16 @@
   "collectionName": "components_page_questions",
   "info": {
     "name": "questions",
-    "icon": "question"
+    "icon": "question",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "question": {
       "type": "string",
       "required": true
     },
-    "text": {
+    "answer": {
       "type": "text",
       "required": true
     }

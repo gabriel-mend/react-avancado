@@ -35,11 +35,6 @@
       "repeatable": false,
       "component": "page.section-tech"
     },
-    "sectioConcepts": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.sectio-concepts"
-    },
     "sectionModules": {
       "type": "component",
       "repeatable": false,
@@ -70,6 +65,12 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-faq",
+      "required": true
+    },
+    "sectionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts",
       "required": true
     }
   }

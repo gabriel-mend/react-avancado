@@ -2,7 +2,8 @@
   "collectionName": "components_page_pricing_boxes",
   "info": {
     "name": "pricingBox",
-    "icon": "dollar-sign"
+    "icon": "dollar-sign",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -24,11 +25,8 @@
       "component": "page.button",
       "required": true
     },
-    "concepts": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.concepts",
-      "required": true
+    "benefits": {
+      "type": "richtext"
     }
   }
 }
